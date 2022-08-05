@@ -1,0 +1,15 @@
+index:
+    path: /
+    controller: App\Controller\IndexReclamacaoController::index
+
+ocorrencia-animal:
+    path: /ocorrencia-animal/
+    controller: App\Controller\Ocorrencia\OcorrenciaAnimalController::index
+
+ocorrencia-animal-registrar:
+    path: /ocorrencia-animal/registrar
+    controller: App\Controller\Ocorrencia\OcorrenciaAnimalController::novoRegistro
+
+# ocorrencia-animal-lista:
+#     path: /ocorrencia-animal/lista
+#     controller: App\Controller\OcorrenciaAnimalController::listar

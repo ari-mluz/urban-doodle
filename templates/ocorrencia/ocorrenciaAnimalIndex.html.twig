@@ -1,0 +1,21 @@
+{% extends "./base.html.twig" %}
+    {% block title %}Início - Ocorrência Animal{% endblock %}
+    {# Run `composer require symfony/webpack-encore-bundle`
+        and uncomment the following Encore helpers to start using Symfony UX #}
+    {% block stylesheets %}
+        {{ parent() }}
+    {% endblock %}
+
+    {% block javascripts %}
+    {% endblock %}
+    {% block body %}
+        <div>
+            <ul>
+                <li><a href="/ocorrencia-animal/registrar"> Nova ocorrência</a></li>
+                <li>Listar Ocorrências</li>
+                <li>Voltar</li>
+            </ul>
+        </div>
+    
+    
+    {% endblock %}
